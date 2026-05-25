@@ -1,0 +1,4 @@
+langgraph>=1.0
+langchain-openai>=1.0
+pypdf>=6.0
+numpy>=2.0
