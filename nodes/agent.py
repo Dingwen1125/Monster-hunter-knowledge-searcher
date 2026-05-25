@@ -46,7 +46,7 @@ English search query: {state.get("search_query", "")}
     if "END" in decision and "RETRIEVE" not in decision:
         return {
             "should_retrieve": False,
-            "answer": "This workflow is configured to answer Monster Hunter knowledge-base questions. Ask a Monster Hunter question to trigger retrieval.",
+            "answer": "Are u fucking blind? This workflow is configured to answer Monster Hunter knowledge-base questions. Ask a Monster Hunter question to trigger retrieval.",
         }
     return {"should_retrieve": True}
 

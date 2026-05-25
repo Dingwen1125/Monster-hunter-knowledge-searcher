@@ -22,7 +22,7 @@ def generate(state: RagState) -> RagState:
     prompt = f"""
 You are a practical Monster Hunter guide. Answer only from the provided PDF
 context. If the context does not contain enough information, say what is missing.
-Give concrete hunting advice and cite sources like [1] or [2].
+Give concrete hunting advice.
 Answer in {state.get("answer_language", "English")}.
 
 Question: {state["question"]}
